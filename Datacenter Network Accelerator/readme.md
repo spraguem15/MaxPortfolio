@@ -1,5 +1,5 @@
 <img width="541" height="699" alt="image" src="https://github.com/user-attachments/assets/214406cc-2957-4b1b-bf5d-990633e8ffa7" />
-<h6>The following image was not created by me, but another group depicting our project from a top view</h6>
+<h6>The following image was not created by me, but another group member depicting our project from a top view</h6>
 
 <h1>Project Overview</h1>
 
