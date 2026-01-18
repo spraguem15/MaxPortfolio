@@ -10,4 +10,8 @@ This project is apart of my senior design project which spans from August 2025 t
 
 <h2>Current Progress</h2>
 
-Much of the progress we have made has come in the form of planning and developing our understanding. We have also programmed all of our parts individually and are in the testing phasing before we begin integrating our project together. My contributions relates to programming the generating aspect of the BTH layer. As shown in the figure from the "readme" there is a generating and parsing side to our system. Once our system has accessed the RDMA of the kernel/CPU we will have access to the information that was requested from the original sender. This information should now be put together as shown in the picture above.
+Much of the progress we have made has come in the form of planning and developing our understanding. We have also programmed all of our parts individually and are in the testing phasing before we begin integrating our project together. My contributions relates to programming the generating aspect of the BTH layer, which is highlighted below. 
+
+<img width="1414" height="207" alt="image" src="https://github.com/user-attachments/assets/97220c66-39a0-4bdf-88c1-6e5bcf928fa2" />
+
+Once our system has accessed the RDMA of the kernel/CPU we will have access to the information that was requested from the original sender. This information should now be put together as shown in the picture above. The majority of the fields shown there are pre-defined fields that are defaulted for the purpose of our design. However, as aforementioned there are two main areas that need to be determined (PSN & QPN). The generating side of things simply needs to communicate with the QP table and state table to determine this information which was assembled by a teammate. With this being said we spent a lot of time figuring out how these machines would work to avoid several problems. 
