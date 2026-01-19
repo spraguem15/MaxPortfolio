@@ -7,8 +7,9 @@ ASIC Design Laboratory (also know as ECE 337), was an introductory course to sta
 There were many different labs in this class that introduced common designs used as standard cells in hardware today. Below is a list of labs we completed throughout the semester:
 
 <ul>
-<li>test</li>
-
-
-  
+<li>Introduction to pipelining</li>
+<li>Variable Counters</li>
+<li>State Machines</li>
+<li>APB & AHB</li> 
+<li>Convolution Machines</li>  
 </ul>
