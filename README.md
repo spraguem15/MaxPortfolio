@@ -3,6 +3,8 @@ Welcome to my personal page detailing the projects I've had the opportunity to b
 
 ![headshot_samsung](https://github.com/user-attachments/assets/2fa108f4-8b4a-4576-82b2-ef9ef67357c4)
 
-For any questions, comments, or concerns please feel free to reach out to me using the methods of communication below. 
+For any questions, comments, or concerns please feel free to reach out to me using the methods of communication below.
+
 Email: spraguem@purdue.edu
+
 Linked-In: www.linkedin.com/in/max-sprague-9aa985217
