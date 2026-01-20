@@ -11,3 +11,5 @@ The purpose of my section (shown above) was to communicate with the bus model, w
 <h3>Challenges & obstacles</h3>
 
 As mentioned earlier one of the greatest challenges we faced along the design and testing process was integration between modules. We ultimately spent a large amount of time using questasim waveforms to debug this process and find the result we were looking for. We would connect two parts together and test their functionality one piece at a time. When we spotted an issue we would address the timing by adding a flip flop, a piece of hardware used to delay a signal. We also relied heavily on the idea of "hand shaking" which boils down to both systems acknowledging each other before any data is transfered. This was important because it would ensure one side of the handshake wasn't unprepared, which avoided false transfers. 
+
+While the conecepts in this project are not the most complex, it was a great way to ensure my SystemVerilog skills were sufficient for future challenges! Without this project I would have not been able to complete the challenges facing me in the coming semester. 
