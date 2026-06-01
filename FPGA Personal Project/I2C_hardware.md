@@ -7,5 +7,6 @@ For the sake of this project, I have created a slightly less operational version
 
 Below is a diagram I am using to base my design off of. This design has not been integrating nicely into the I/O bus design, so there will need to be some adjustments made in order to better integrate everything. 
 
-<img width="1224" height="526" alt="image" src="https://github.com/user-attachments/assets/5f541d64-0d29-4958-a2ca-9b7c42ed6bc2" />
+<img width="1217" height="508" alt="image" src="https://github.com/user-attachments/assets/76754b92-32c3-4b63-9d45-9584909669e6" />
 
+The register module block essentially acts as a small set of regsiters, saving addresses and data that would be used during the design. This block is clocked at the overall FPGA speed of 100 Mhz, which is noteable since the finite state machine (FSM), is not. When metadata wants to be sent in, a start bit must be set high, this essentially acts as an enable signal for the register file, to tell it to store data. More research needs to be done on whether or not the I/O bus can provide this signal as well, maybe an entire 32 bit signal can be sent, which can then be segmented into different parts. 
