@@ -7,5 +7,5 @@ For the sake of this project, I have created a slightly less operational version
 
 Below is a diagram I am using to base my design off of. This design has not been integrating nicely into the I/O bus design, so there will need to be some adjustments made in order to better integrate everything. 
 
-<img width="1265" height="597" alt="image" src="https://github.com/user-attachments/assets/c15ce2d5-9129-4ced-9afe-dd19a11be6f5" />
+<img width="1224" height="526" alt="image" src="https://github.com/user-attachments/assets/5f541d64-0d29-4958-a2ca-9b7c42ed6bc2" />
 
