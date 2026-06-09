@@ -14,3 +14,4 @@ Before this project I had never had the chance to work with the "inout" signal i
 The off state here allows the signal to be floating, which would allow another source to modify the signal. Without this you would have two different sources driving a signal which would cause signals to be wrong. 
 
 <h2>Synthesis Changes</h2>
+
