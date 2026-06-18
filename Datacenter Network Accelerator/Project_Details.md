@@ -40,3 +40,4 @@ We are the Roce V2 section with other sections being made up of different indivi
 
 <img width="852" height="102" alt="image" src="https://github.com/user-attachments/assets/f96485b7-3b76-4165-a482-ff3e92b70e38" />
 
+In order to understand how big these buffers needed to be, I went into the top level code where these buffers were stored and added several key variables that would be used to understand their usage. Some of the variables added included the amount of slots being occupied, which slots were being used and flags indicating emptiness/fullness. These variables would then be used to calculate the effectiveness of different buffer sizes. 
