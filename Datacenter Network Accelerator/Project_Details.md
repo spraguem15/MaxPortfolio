@@ -53,4 +53,4 @@ The second graph shows the usage of each buffer based on the same sizes used for
 
 $\text{Usage} = \frac{\text{Cycles Occupied}}{\text{Buffer Capacity} \times \text{Time}} \times 100$
 
-This information is also straight forward showing that as the buffer sizes get larger the usage goes down. However, we do see a gradual increase in usage as we get to a larger buffer size which does not follow general instincts of how things should go. What was discovered was that because the larger buffers ran the testbench so quickly the reported usage value went up 
+The amount of cycles that each frame in the buffer was calculated using the equation above, then averaged with the other frames to get a total buffer usage average. This information is also straight forward showing that as the buffer sizes get larger the usage goes down. However, we do see a gradual increase in usage as we get to a larger buffer size which does not follow general instincts of how things should go. What was discovered was that because the larger buffers ran the testbench so quickly the reported usage value went up because the time it took decreased so much. 
