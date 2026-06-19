@@ -49,4 +49,8 @@ In order to understand how big these buffers needed to be, I went into the top l
 
 To elaborate more on what each graph represent, lets look at the first graph. The first graph represents the amount of cycles it took to complete the test case with high traffic. You can see that there is a clear correlation between larger buffer size and the amount of cycles taken. The Z axis is cycles taken, while the x and y axes are the buffer size for the two different sides of our design. As explained earlier, the parsing side of the design is getting the key information from the network and passing it along to the CPU. On the other side the generating side is getting packets ready to be sent back out on to the network from the CPU. These buffers were changed independently from one another because they are receiving data from two different sources, which would suggest that the rate of incoming data could differ, thus suggesting we should seperate the two sizes. 
 
-The second graph shows the usage of each buffer based on the same sizes used for the cycle graph. Within the SystemVerilog code, I added calculations that would generate the average usage over the course of the test. This information is also straight forward showing 
+The second graph shows the usage of each buffer based on the same sizes used for the cycle graph. Within the SystemVerilog code, I added calculations that would generate the average usage over the course of the test. The equation for this process is shown below.
+
+$\text{Usage} = \frac{\text{Cycles Occupied}}{\text{Buffer Capacity} \times \text{Time}} \times 100$
+
+This information is also straight forward showing that as the buffer sizes get larger the usage goes down. However, we do see a gradual increase in usage as we get to a larger buffer size which does not follow general instincts of how things should go. What was discovered was that because the larger buffers ran the testbench so quickly the reported usage value went up 
