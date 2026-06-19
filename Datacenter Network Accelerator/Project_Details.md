@@ -46,3 +46,5 @@ In order to understand how big these buffers needed to be, I went into the top l
 
 <img width="640" height="480" alt="usage_data" src="https://github.com/user-attachments/assets/6f84d6f1-be28-4b8a-9e83-6be84b7eacbb" />
 
+
+To elaborate more on what each graph represent, lets look at the first graph. The first graph represents the amount of cycles it took to complete the test case with high traffic. You can see that there is a clear correlation between larger buffer size and the amount of cycles taken. 
