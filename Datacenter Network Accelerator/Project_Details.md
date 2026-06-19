@@ -40,4 +40,9 @@ We are the Roce V2 section with other sections being made up of different indivi
 
 <img width="852" height="102" alt="image" src="https://github.com/user-attachments/assets/f96485b7-3b76-4165-a482-ff3e92b70e38" />
 
-In order to understand how big these buffers needed to be, I went into the top level code where these buffers were stored and added several key variables that would be used to understand their usage. Some of the variables added included the amount of slots being occupied, which slots were being used and flags indicating emptiness/fullness. These variables would then be used to calculate the effectiveness of different buffer sizes. 
+In order to understand how big these buffers needed to be, I went into the top level code where these buffers were stored and added several key variables that would be used to understand their usage. Some of the variables added included the amount of slots being occupied, which slots were being used and flags indicating emptiness/fullness. These variables would then be used to calculate the effectiveness of different buffer sizes. One of my groupmates had created the testbench for the top level design, which I then modified to have a high test rate. Since we had not created a working design, we had no reference as to what actual network traffic would look like. As a result, we decided to use a high workload to look at the worst case scenario since all buffer sizes may work similarly in easy workloads. Below are a couple of graphs I made using python to visualize the performance based on the buffer sizes. 
+
+<img width="640" height="480" alt="Cycle_data_counters_final" src="https://github.com/user-attachments/assets/7b5e72d7-fbe3-4dec-8694-39c4cf050df9" />
+
+<img width="640" height="480" alt="usage_data" src="https://github.com/user-attachments/assets/6f84d6f1-be28-4b8a-9e83-6be84b7eacbb" />
+
